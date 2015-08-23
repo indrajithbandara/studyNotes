@@ -5,8 +5,8 @@
 ``` nodejs
 直接使用npm install 命令会更具package.json文件的dependencies项的依赖来安装
 -g 安装到全局，代码中不能通过require获取，一般用作命令行操作 如 npm intall -g forever
--save 安装包到包含package.json文件的项目目录中
--save-dev 安装到
+npm i node_module -save //自动更新dependencies字段
+npm i node_module -save-dev //自动更新devDependencies字段
 ```
 + npm list //参看当前目录安装包
 + npm help forever //参看forever命令的帮助信息
