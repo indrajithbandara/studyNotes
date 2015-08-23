@@ -21,4 +21,4 @@
 ``` nodejs
 npm root -g //查看包全局安装的目录
 ```
-##### npm -v //查看npm版本
++ npm -v //查看npm版本
