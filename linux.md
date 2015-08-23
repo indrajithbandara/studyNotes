@@ -23,7 +23,7 @@
 -Z #使用compress压缩，uncompress解压，一般文件名为xx.tar.Z
 
 ```
-
++ 实例
 ``` linux
 #将当前目录所有文件都打包，当前并没有压缩
 fishdeMacBook-Pro:tar fish$ tar -cf tar-cf.tar *  
