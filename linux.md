@@ -29,6 +29,9 @@
 fishdeMacBook-Pro:tar fish$ tar -cf tar-cf.tar *  
 fishdeMacBook-Pro:tar fish$ ls
 cat.txt		cat1.txt	cat2.txt	tar-cf.tar	tarFolder
+```
+```linux
+#查看tar包里的文件信息
 fishdeMacBook-Pro:tar fish$ tar -tf tar-cf.tar
 cat.txt
 cat1.txt
