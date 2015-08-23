@@ -95,7 +95,7 @@ $ make
 ```
 
 ##参考文档：
-[linux压缩（解压缩）命令详解](http://blog.csdn.net/hbcui1984/article/details/1583796)<br>
+[linux压缩（解压缩）命令详解](http://blog.csdn.net/hbcui1984/article/details/1583796)  
 [linux命令手册](http://linux.51yip.com/search/tar)
 
 
