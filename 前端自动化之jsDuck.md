@@ -19,3 +19,12 @@ fishdeMacBook-Pro:jsduck fish$ gem install jsduck
 ```
 详情  
 [http://stackoverflow.com/questions/19150017/ssl-error-when-installing-rubygems-unable-to-pull-data-from-https-rubygems-o](http://stackoverflow.com/questions/19150017/ssl-error-when-installing-rubygems-unable-to-pull-data-from-https-rubygems-o)
+
+### 使用
+- 运行
+```linux
+#将test/src目录下文件转成doc文档到docs目录
+jsduck test/src --output docs
+
+
+```
