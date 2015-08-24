@@ -1,4 +1,37 @@
 #nodejs学习笔记
+## CenterOS环境下安装nodejs
+- 方法一（失败）
+```linux
+#注备命令
+yum -y install gcc make gcc-c++ openssl-devel wget
+#下载解压
+wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
+tar -zvxf node-v0.10.26.tar.gz
+#安装编译
+./configure
+make
+make install
+```
+- 方法二（成功）
+```linux
+#如何从EPEL库安装Node.js
+[root@dev-41 nodejs]# yum install epel-release
+#下面的命令报错了
+[root@dev-41 nodejs]# yum install nodejs
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again
+#通过修改下面文件，将
+#baseurl
+mirrorlist
+改为
+baseurl
+#mirrorlist
+[root@dev-41 nodejs]# vi /etc/yum.repos.d/epel.repo
+[root@dev-41 nodejs]# yum install npm
+
+```
+
 ## npm 常见命令
 
 + npm install moduleName //安装包,也可以简写 npm i moduleName
