@@ -1,6 +1,13 @@
 # 前端自动化之jsDuck
   
 ### 安装
+- 首先确认有没有安装ruby环境
+```linux
+#ubuntu安装：
+sudo apt-get install ruby
+#CenterOS安装：
+sudo yum install ruby
+```
 - 问题一：安装出错
 ``` linux
 fishdeMacBook-Pro:jsduck fish$ gem install jsduck
