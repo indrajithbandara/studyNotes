@@ -8,20 +8,19 @@ sudo apt-get install ruby
 #CenterOS安装：
 sudo yum install ruby
 ```
-- 安装过程
-	fishdeMacBook-Pro:jsduck fish$ gem install jsduck
+- 安装过程  
+> fishdeMacBook-Pro:jsduck fish$ gem install jsduck
 ERROR:  Could not find a valid gem 'jsduck' (>= 0), here is why:
           Unable to download data from https://rubygems.org/ - Errno::ECONNRESET: Connection reset by peer - SSL_connect (https://rubygems.org/latest_specs.4.8.gz)
 
->
-### 将http://rubygems.org作为gem源
+>  将http://rubygems.org作为gem源
 fishdeMacBook-Pro:jsduck fish$ sudo gem sources -a http://rubygems.org
 Password:
 https://rubygems.org is recommended for security over http://rubygems.org
 Do you want to add this insecure source? [yn]  y
 http://rubygems.org added to sources
 
-*如果网络不好，可该用淘宝的源*
+>  如果网络不好，可该用淘宝的源
 [root@dev-41 jsduck]# gem sources -a http://ruby.taobao.org
 http://ruby.taobao.org added to sources
 [root@dev-41 jsduck]# gem sources
