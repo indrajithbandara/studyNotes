@@ -79,7 +79,7 @@ mkmf.rb can't find header files for ruby at /usr/lib/ruby/ruby.h
 [root@dev-41 jsduck]# gem install jsduck
 ```
 
-详情  
+参考连接：  
 [http://stackoverflow.com/questions/19150017/ssl-error-when-installing-rubygems-unable-to-pull-data-from-https-rubygems-o](http://stackoverflow.com/questions/19150017/ssl-error-when-installing-rubygems-unable-to-pull-data-from-https-rubygems-o)
 
 ### 使用
