@@ -9,8 +9,7 @@ sudo apt-get install ruby
 sudo yum install ruby
 ```
 - 安装过程
->  
-fishdeMacBook-Pro:jsduck fish$ gem install jsduck
+	fishdeMacBook-Pro:jsduck fish$ gem install jsduck
 ERROR:  Could not find a valid gem 'jsduck' (>= 0), here is why:
           Unable to download data from https://rubygems.org/ - Errno::ECONNRESET: Connection reset by peer - SSL_connect (https://rubygems.org/latest_specs.4.8.gz)
 
