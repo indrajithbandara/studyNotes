@@ -23,7 +23,7 @@ https://rubygems.org is recommended for security over http://rubygems.org
 Do you want to add this insecure source? [yn]  y
 http://rubygems.org added to sources
 
-#如果网络不好，可该用淘宝的源
+*如果网络不好，可该用淘宝的源*
 [root@dev-41 jsduck]# gem sources -a http://ruby.taobao.org
 http://ruby.taobao.org added to sources
 [root@dev-41 jsduck]# gem sources
