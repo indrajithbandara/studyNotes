@@ -55,3 +55,6 @@ npm i node_module -save-dev //自动更新devDependencies字段
 npm root -g //查看包全局安装的目录
 ```
 + npm -v //查看npm版本
++ npm config set registry https://registry.npm.taobao.org // 永久使用镜像
++ npm --registry "http://npm.hacknodejs.com/" install underscore // 临时使用镜像
+ 
