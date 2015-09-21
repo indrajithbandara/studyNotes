@@ -1,5 +1,5 @@
 ## 问题列表
-> 使用官方方式创建项目，<code>npm start</code> 执行错误
++ 使用官方方式创建项目，<code>npm start</code> 执行错误
 ```linux
 ERROR  watchman--no-pretty get-sockname returned with exit code null dyld: Library not loaded: /usr/local/lib/libpcre.1.dylib
   Referenced from: /usr/local/bin/watchman
