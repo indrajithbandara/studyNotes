@@ -23,6 +23,10 @@ fish
 TT:proj fish$ sudo chown -R `whoami` /usr/local
 #OK
 ```
+参考文档：  
+https://github.com/Homebrew/homebrew/issues/9953#issuecomment-3800557  
+http://stackoverflow.com/questions/29319378/cant-link-pcre-thru-brew-in-max-os-yosemite  
+【官方】http://facebook.github.io/react-native/docs/troubleshooting.html  
   
   
   
