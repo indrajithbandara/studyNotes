@@ -19,16 +19,16 @@ localhost:test fish$ sudo ln -s /usr/local/src/phantomjs-2.0.0-macosx/bin/phanto
 localhost:test fish$ phantomjs -v
 Killed: 9
 ```
-**解决方法**：
-1、先安装upx
+**解决方法**：    
+1 先安装upx
 ```linux 
 $ brew install upx
 ```
-2、执行
+2 执行
 ```linux
 $ upx -d phantomjs-2.0.0-macosx/bin/phantomjs
 ```
-3、运行
+3 运行
 ```linux
 $ phantomjs
 phantomjs> 
