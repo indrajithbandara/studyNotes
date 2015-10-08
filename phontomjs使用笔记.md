@@ -5,7 +5,9 @@ http://npm.taobao.org/dist/phantomjs/
 对应MAC版：    
 http://oss.npm.taobao.org/dist/phantomjs/phantomjs-2.0.0-macosx.zip    
 linux只有源码：
-http://oss.npm.taobao.org/dist/phantomjs/phantomjs-2.0.0-source.zip    
+http://oss.npm.taobao.org/dist/phantomjs/phantomjs-2.0.0-source.zip 
+
+
 >  添加环境变量
 mac上：   
 ```linux
@@ -31,6 +33,7 @@ $ upx -d phantomjs-2.0.0-macosx/bin/phantomjs
 $ phantomjs
 phantomjs> 
 ```
+
 参考：http://stackoverflow.com/questions/28267809/phantomjs-getting-killed-9-for-anything-im-trying 
 
 
