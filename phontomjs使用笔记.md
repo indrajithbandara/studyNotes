@@ -1,10 +1,10 @@
 ### 安装
 - 下载地址    
-推荐使用淘宝镜像地址
+推荐使用淘宝镜像地址：    
 http://npm.taobao.org/dist/phantomjs/   
 对应MAC版：    
 http://oss.npm.taobao.org/dist/phantomjs/phantomjs-2.0.0-macosx.zip    
-linux只有源码：
+linux只有源码：    
 http://oss.npm.taobao.org/dist/phantomjs/phantomjs-2.0.0-source.zip 
     
 
