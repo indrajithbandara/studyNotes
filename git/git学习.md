@@ -52,5 +52,7 @@ GIT PUSH REMOTE ERROR
 [receive]
 	denyCurrentBranch = warn
 ```
-这样就可以通过git push提交自己的稳定更新，要想在push后在remote端看到更新的效果，执行git reset –hard即可。
+这样就可以通过git push提交自己的稳定更新，要想在push后在remote端看到更新的效果，执行git reset –hard即可。    
+参考文档：    
+[搭建Git本地服务器](http://www.cnblogs.com/trying/archive/2012/06/28/2863758.html)
 
