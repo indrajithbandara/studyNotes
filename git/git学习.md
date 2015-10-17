@@ -1,5 +1,5 @@
 ## git学习
-一、git配置
+#### 一、git配置
 ```linux
 [user]
     name = xyzoer
@@ -33,3 +33,24 @@
     cp = cherry-pick
     ca = commit -a
 ```
+#### 二、常见问题
+- 客户端提交，git服务器不同步问题
+打开远程git服务器，进入到相应git仓库执行 <code>git co HEAD .</code>，将客户端提交过来数据同步到工作区。    
+时时添加添加更新服务器工作区可以如下解决，在git服务器的.git/hooks目录添加<code>post-receive</code>，内容如下：
+```linux
+#!/bin/sh
+# http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3
+cd ..
+env -i git reset --hard
+```
+- 远程仓库拒绝提交问题
+```linux 
+GIT PUSH REMOTE ERROR
+```
+打开远程仓库<code>.git/config</code>文件添加：
+```linux
+[receive]
+	denyCurrentBranch = warn
+```
+这样就可以通过git push提交自己的稳定更新，要想在push后在remote端看到更新的效果，执行git reset –hard即可。
+
