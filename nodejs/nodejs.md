@@ -57,4 +57,18 @@ npm root -g //查看包全局安装的目录
 + npm -v //查看npm版本
 + npm config set registry https://registry.npm.taobao.org // 永久使用镜像
 + npm --registry "http://npm.hacknodejs.com/" install underscore // 临时使用镜像
+
+## 常见问题
+##### npm start命令出现一下错误
+```linux 
+Failed to load c++ bson extension, using pure JS version
+```
+解决方法：    
+<code>MAC</code>系统运行<code>xcode-select --install</code>，然后运行    
+```linux
+rm -rf node_modules
+npm cache clean
+npm install
+```
+参考： http://stackoverflow.com/questions/21656420/failed-to-load-c-bson-extension    
  
