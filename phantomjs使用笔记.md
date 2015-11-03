@@ -26,7 +26,7 @@ $ brew install upx
 ```
 2 执行
 ```linux
-$ upx -d phantomjs-2.0.0-macosx/bin/phantomjs
+$ sudo upx -d phantomjs-2.0.0-macosx/bin/phantomjs
 ```
 3 运行
 ```linux
