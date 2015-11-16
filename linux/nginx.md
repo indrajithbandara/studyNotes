@@ -8,6 +8,10 @@
 - make && make install
 - sudo /usr/local/nginx/sbin/nginx
 - 浏览器访问 localhost
+- MAC下安装
+````linux 
+>$ brew install nginx
+````
 
 ##启动
 - 启动命令
@@ -15,9 +19,21 @@
 >$ sudo nginx -c /usr/local/nginx/conf/nginx.conf
 ````
 - 停止命令
-````linux 
+```linux 
 >$ sudo nginx -s stop
 #或者
 >$ sudo nginx -s quit
-````
+```
+- 重启命令
+```linux
+>$ ./nginx -s reload
+```
+- 判断nginx配置是否正确
+```linux
+>$ nginx -t -c /usr/local/nginx/conf/nginx.conf
+#或
+>$ cd  /usr/local/nginx/sbin
+>$ ./nginx -t
+```
+
 
