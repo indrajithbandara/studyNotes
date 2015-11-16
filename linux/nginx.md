@@ -8,3 +8,16 @@
 - make && make install
 - sudo /usr/local/nginx/sbin/nginx
 - 浏览器访问 localhost
+
+##启动
+- 启动命令
+```linux 
+>$ sudo nginx -c /usr/local/nginx/conf/nginx.conf
+````
+- 停止命令
+````linux 
+>$ sudo nginx -s stop
+#或者
+>$ sudo nginx -s quit
+````
+
