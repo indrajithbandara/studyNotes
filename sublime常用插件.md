@@ -27,3 +27,7 @@
 
 > typescript 代码自动补全
 
+- SublimeBlockCurso
+
+> vim 光标变成块
+
