@@ -60,5 +60,5 @@ GIT PUSH REMOTE ERROR
 2 Select "All items" in Category    
 3 Search "git"    
 4 Delete every old & strange items    
-5 Try to Push again and it just WORKED
-
+5 Try to Push again and it just WORKED    
+[Git's famous “ERROR: Permission to .git denied to user”](http://stackoverflow.com/questions/5335197/gits-famous-error-permission-to-git-denied-to-user)    
